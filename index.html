@@ -14,7 +14,7 @@
   <header class="site-header">
     <div class="container">
       <div class="site-header__top">
-        <a class="logo" href="index.html">
+        <a class="site-header__logo logo" href="index.html">
           <img class="logo__img" src="img/logo.svg" alt="Лого сайта Namanganliklar24" width="306" height="33">
         </a>
         <ul class="site-header__exchange-rates exchange-rates">
@@ -31,19 +31,49 @@
         </ul>
         <div class="site-header__actions">
           <button class="site-header__search-button search-button" type="button">
-            <img class="search-button__img" src="img/icon-magnify.svg" alt="Иконка лупы" width="24" height="24">
+            <span class="search-button__wrapper">
+              <img class="search-button__img" src="img/icon-magnify.svg" alt="Иконка лупы" width="24" height="24">
+            </span>
           </button>
           <button class="site-header__language-toggler language-toggler" type="button">
-            <img class="language-toggler__img" src="img/icon-russian-flag.svg" alt="Иконка флага России" width="20"
-              height="20">
-            <span class="language-toggler__text">РУ</span>
+            <span class="language-toggler__wrapper">
+              <img class="language-toggler__img" src="img/icon-russian-flag.svg" alt="Иконка флага России" width="20"
+                height="20">
+              <span class="language-toggler__text">РУ</span>
+            </span>
           </button>
           <a class="telegram-sub" href="https://tme.to/relax_max" target="_blank">
-            <img class="telegram-sub__img" src="img/icon-telegram.svg" alt="Лого мессенжера Телеграм" width="20" height="20">
+            <img class="telegram-sub__img" src="img/icon-telegram.svg" alt="Лого мессенжера Телеграм" width="20"
+              height="20">
             <span class="telegram-sub__text">Подписатся</span>
           </a>
-        </div><!--site-header__actions -->
+        </div>
+        <!--site-header__actions -->
       </div><!-- site-header__top -->
+    
+    <!-- > -->
+    
+    <nav class="sitenav">
+      <ul class="sitenav__list">
+        <li class="sitenav__item"><a class="sitenav__link" href="#">Узбекистана</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="#">Мир</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="#">Экономика</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="#">Политика</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="#">Общество</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="#">Технологии</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="#">Спорт</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="#">Культура</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="#">Происшествия</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="#">Туризм</a></li>
+      </ul>
+    </nav>
+
+    <aside class="top-banner">
+      <a class="top-banner__link" href="#" target="_blank">
+        <img class="top-banner__img" src="img/nrg-banner.jpg" srcset="img/nrg-banner.jpg 1x, img/nrg-banner@2x.jpg 2x" alt="NRG company banner" width="1200" height="99">
+      </a>
+    </aside>
+
     </div><!-- container -->
   </header>
   <script src="js/main.js"></script>
