@@ -155,6 +155,7 @@ body {
   border: none;
   border-radius: 5px;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .search-button__wrapper {
@@ -169,6 +170,7 @@ body {
   border: none;
   border-radius: 5px;
   background-color: #fff;
+  cursor: pointer;
 }
 
 .language-toggler__wrapper {
